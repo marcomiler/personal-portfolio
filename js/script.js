@@ -64,12 +64,12 @@ navLink.forEach( n => n.addEventListener( 'click', linkAction ));
 
 // TYPEWRITE EFFECT
 
-new Typewriter('#typewriter', {
-    strings: ['Miler Rodriguez Marco', 'Web-developer'],
-    autoStart: true,
-    loop: true,
-    cursor: "|"
-});
+// new Typewriter('#typewriter', {
+//     strings: ['Miler Rodriguez Marco', 'Web-developer'],
+//     autoStart: true,
+//     loop: true,
+//     cursor: "|"
+// });
 
 
 
