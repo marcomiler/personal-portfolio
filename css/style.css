@@ -110,20 +110,23 @@ body.dark-theme{
 .nav__btns{
     display: flex;
     align-items: center;
-    padding-left: var(--mb-0-5);
-    margin: 0;
-    margin-top: -5px;
+    padding-left: var(--mb-1);
+    margin-top: -18px;
     gap: var(--mb-0-75);
+    cursor: pointer;
+}
+
+.uil-moon {
+  font-size: 18px;
 }
 
 .change-theme{
     font-size: 1.25rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
-    cursor: pointer;
-}
-
-.change-theme:hover{
+  }
+  
+  .change-theme:hover{
     color: var(--first-color);
 }
 
@@ -167,7 +170,7 @@ img{
 .section{
     padding: 2rem 0 4rem;
     margin: auto;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .section__title{
@@ -260,6 +263,7 @@ img{
 
 .nav__logo:hover{
     color: var(--first-color);
+    cursor: pointer;
 }
 
 .nav__toggle{
@@ -270,6 +274,7 @@ img{
 
 .nav__toggle:hover{
     color: var(--first-color);
+    cursor: pointer;
 }
 
 .navbar-brand{
@@ -413,10 +418,9 @@ img{
 }
 
 #typewriter{
-    margin-top: var(--mb-1);
-    margin-bottom: var(--mb-2);
+    height: 10vh;
 }
-
+/* 
 .Typewriter__wrapper{
     text-align: center;
     font-size: var(--h2-font-size);
@@ -430,7 +434,7 @@ img{
     color: var(--text-color);
     font-family: var(--gullible-font);
     font-weight: 600;
-}
+} */
 
 .home__subtitle{
     text-align: center;
@@ -468,7 +472,6 @@ img{
 .home__scroll{
     display: flex;
     justify-content: center;
-    margin-top: 0;
     animation: scrollDown 3s infinite;
 }
 
@@ -483,7 +486,7 @@ img{
 
 .home__scroll-mouse{
     font-size: var(--big-font-size);
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-1-5);
 }
 
 .home__scroll-name{
@@ -499,8 +502,7 @@ img{
 
 /* ===================== ABOUT ================== */
 .about{
-    padding-top: 1rem;
-    margin-top: 7rem;
+    margin-top: 0;
 }
 .about__img{
     width: 200px;
@@ -1251,7 +1253,7 @@ img{
   .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color);
+    color: var(--text-color-light);
     margin-top: var(--mb-3);
   }
   
@@ -1433,7 +1435,7 @@ img{
 
     .nav{
       height: calc(var(--header-height) + 1.5rem);
-      column-gap: 1rem;
+      /* column-gap: 1rem; */
     }
 
     .nav__icon,

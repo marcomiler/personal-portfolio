@@ -62,16 +62,18 @@ function linkAction() {
 
 navLink.forEach( n => n.addEventListener( 'click', linkAction ));
 
-// TYPEWRITE EFFECT
+// TYPED EFFECT
 
-// new Typewriter('#typewriter', {
-//     strings: ['Miler Rodriguez Marco', 'Web-developer'],
-//     autoStart: true,
-//     loop: true,
-//     cursor: "|"
-// });
-
-
+var options = {
+    strings: ['<h2 class="home__title">Miler Rodriguez Marco</h2>', '<h2 class="home__title">Web Developer</h2>'],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 100,
+    showCursor: false,
+    loopCount: Infinity,
+};
+  
+var typed = new Typed('#typewriter', options);
 
 //===================================== SCROLL UP =========================
 function scrollUp(){
